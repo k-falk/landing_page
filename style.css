@@ -92,6 +92,7 @@ html, body {
 .info {
     font-size: 3em;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 1em;
     margin-bottom: 1em;
 }
 .images {
@@ -128,30 +129,78 @@ html, body {
 
 
 .quote-content {
-    flex:1,1,1;
-    background-color: #E5E7EB;
-    display:flex;
-    flex-direction:column;
+    display: flex;
     justify-content: center;
-    align-items: center;
+    background-color: #E5E7EB;
     width:100%;
     padding: 5em 0 5em 0;
 }
 
+.quote {
+    display:flex;
+    flex-direction: column;
+    width:50%;
+}
+
 .quote-content p {
-    align-self:center;
+    align-self:flex-start;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: larger;
-    width:60%;
-    margin-left: 20em;
+    font-size: x-large;
+    font-style:italic
     
 }
 
-.quote-content strong {
+.quote strong {
     align-self: flex-end;
-    margin-right: 50em
+    margin-right: 5em;
 }
 
+.signup-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.signup-box {
+    padding: 2em 5em 2em 5em;
+    margin: 5em;
+    display:flex;
+    background-color: #3882F6;
+    border-radius: 25px;
+    width:50%;
+    justify-content: space-around;
+ 
+}
+
+.signup-box-content {
+    display:flex;
+    width: 70%;
+    justify-content: space-around
+}
+
+.signup-text {
+    display:flex;
+    flex-direction: column;
+    color: white;
+
+}
+.signup-box button { 
+    width: 10em;
+    height:3em;
+    align-self: center;
+    background-color: #3882F6;
+    border-radius: 10px;
+    border: 2px solid;
+    color:white;
+    font-weight:1000;
+    
+
+}
+
+.signup-box button:hover {
+  background-color: white;
+  color: #3882F6;
+}
 
 img { 
     width: 100%; 
